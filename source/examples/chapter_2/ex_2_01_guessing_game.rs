@@ -1,0 +1,49 @@
+use std::io; /// This is equivalent to the stdio library in C, under prelude
+
+fn main() { /// fn - function keyword, fn fn_name(){...}
+    println!("Guess a number!");
+
+    println!("Please enter your guess.");
+
+    //! let - is used to create a variable, let apples = 5;
+    //! by default the variable are immutable, meaning once 
+    //! we give the variable a value, the value won’t change
+    //! 
+    //! To make the variable mutable, we add mut before the variable name
+    //! 
+    //! let apples = 5; //immutable
+    //! let mut bananas = 5; //mutable
+    //! 
+    //! String::new() is a function that returns a new string instance
+    //! String is a type from standard library that is growable.
+    //! encoded in UTF-8
+    //! 
+    //! The :: in ::new indicates that the new() is an associated function
+    //! of String type.
+    //! 
+    let mut guess = String::new();
+
+    //! stdin to read the user input
+    io::stdin()
+        //! & in read_line indicates that the argument is passed as reference
+        //! references are also immutable by default hence
+        //! we write '&mut guess' instead or '&guess'
+        //! the read_line() method returns an Result which is an enum
+        //! the Result also has methods associated with them
+        //! so, Result.expect("message")
+        .read_line(&mut guess) // this is a method .method_name()
+        .expect("Failed to read line");
+
+    //! the {} inside the println! state is used to print the value of the
+    //! variable
+    //! 
+    //! Also, for operating on the variable just before printing it
+    //! 
+    //! let y = 5;
+    //! let x = 10;
+    //! println!("x = {x} and y + 2 = {}", y + 2);
+    //! 
+    //! will result in
+    //! x = 10 and y + 2 = 7
+    println!("You guessed: {guess}");
+}

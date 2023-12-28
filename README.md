@@ -23,3 +23,6 @@ Learning to code in Rust programming language
 11. [Rust Command Line Book](https://rust-cli.github.io/book/index.html)
 12. [Rust Webassembly Book](https://rustwasm.github.io/docs/book/)
 13. [Rust Embedded Book](https://doc.rust-lang.org/stable/embedded-book/)
+14. [Rust Reference](https://doc.rust-lang.org/reference/index.html)
+15. [Rustonomicon](https://doc.rust-lang.org/nomicon/index.html)
+16. [Rust Unstable Book](https://doc.rust-lang.org/nightly/unstable-book/index.html)

@@ -2,13 +2,27 @@
 
 Learning to code in Rust programming language
 
+## Source
+
+The source directory will contain all the examples, exercises and more from the book[The Rust Programming Language](#books)
+
 ## References
 
 ### Books
 
-1. [The Rust Programming Language](./reference/books/Steve%20Klabnik_%20Carol%20Nichols%20-%20The%20Rust%20Programming%20Language,%202nd%20Edition-No%20Starch%20Press%20(2022).pdf)
+1. [Steve Klabnik_ Carol Nichols - The Rust Programming Language, 2nd Edition-No Starch Press (2022).pdf](<./reference/books/Steve Klabnik_ Carol Nichols - The Rust Programming Language, 2nd Edition-No Starch Press (2022).pdf>)
 
-## Links
+### Command Line
+
+1. `curl --proto '=https' --tlsv1.3 https://sh.rustup.rs -sSf | sh` - To install Rust, Linux or macOS
+2. `rustup update` - To update Rust
+3. `rustup self uninstall` - To uninstall Rust
+4. `rustc --version` - To check version of Rust C
+5. `rustup --version` - To check version of Rustup
+6. `cargo --version` - To check version of Cargo
+7. `rustup doc` - To get local documentation
+
+### Links
 
 1. [Rust Foundation](https://foundation.rust-lang.org/)
 2. [Rust Language](https://www.rust-lang.org/)
@@ -26,3 +40,8 @@ Learning to code in Rust programming language
 14. [Rust Reference](https://doc.rust-lang.org/reference/index.html)
 15. [Rustonomicon](https://doc.rust-lang.org/nomicon/index.html)
 16. [Rust Unstable Book](https://doc.rust-lang.org/nightly/unstable-book/index.html)
+17. [Rust Forge](https://forge.rust-lang.org/index.html)
+
+### Sample Project
+
+The [hello-rust](./sample/hello-rust/) project is created using `cargo` build system for Rust. This is to simulate the properties of creating a project using `cargo`.

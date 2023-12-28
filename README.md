@@ -2,6 +2,10 @@
 
 Learning to code in Rust programming language
 
+## Sample
+
+These are sample programs created using `cargo` build and package management system.
+
 ## Source
 
 The source directory will contain all the examples, exercises and more from the book[The Rust Programming Language](#books)
@@ -44,4 +48,4 @@ The source directory will contain all the examples, exercises and more from the 
 
 ### Sample Project
 
-The [hello-rust](./sample/hello-rust/) project is created using `cargo` build system for Rust. This is to simulate the properties of creating a project using `cargo`.
+The [hello-rust](./sample/hello-rust/) project is created using `cargo` build system and package manager for Rust. This is to simulate the properties of creating a project using `cargo`.

@@ -2,7 +2,7 @@
 id: lj9ghosrypy2zjr146udv8h
 title: Basics
 desc: ''
-updated: 1703743677372
+updated: 1703760482419
 created: 1703740104473
 ---
 
@@ -27,3 +27,5 @@ created: 1703740104473
     ```sh
     cargo add ferris-says
     ```
+
+5. To check for compilation errors and not create a binary file run, `cargo check`

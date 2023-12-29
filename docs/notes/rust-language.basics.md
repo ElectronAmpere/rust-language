@@ -2,30 +2,23 @@
 id: lj9ghosrypy2zjr146udv8h
 title: Basics
 desc: ''
-updated: 1703760482419
+updated: 1703836538912
 created: 1703740104473
 ---
-
 ## Reference links
 
 [Getting Started](https://www.rust-lang.org/learn/get-started)
 
-## Command line inputs
+## Keywords
 
-1. To create a new project run, `cargo new <project_name>`
-
-    ```sh
-    cargo new hello-rust
-    ```
-
-2. To build the project run, `cargo build`
-
-3. To run the project, `cargo run`
-
-4. To add dependencies run, `cargo add <crate_name>`
-
-    ```sh
-    cargo add ferris-says
-    ```
-
-5. To check for compilation errors and not create a binary file run, `cargo check`
+| Keywords | Description                                           | Usage                                     | Similars in C   |
+| :------- | :---------------------------------------------------- | :---------------------------------------- | :-------------- |
+| let      | Creates a immutable variable                          | let variable = 0;                         | const           |
+| mut      | Creates a mutable variable                            | let mut variable = 0;                     | static or auto  |
+| fn       | Creates a function                                    | fn main(){ ... }                          |                 |
+| loop     | Iterates a section of code indefinitely               | loop { ... }                              | for, while, etc |
+| break    | Breaks out of the current scope of execution          | loop { break; }                           | break           |
+| use      | Imports the invoked crates on to the current program  | use std::io                               | include         |
+| continue | Skips current execution after the statement, proceeds | loop { continue; }                        | continue        |
+| match    | Matches the results to the conditions inside it       | match Result { state1 => statement, ... } | if, if else     |
+|          |                                                       |                                           |                 |

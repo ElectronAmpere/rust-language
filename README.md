@@ -2,19 +2,23 @@
 
 Learning to code in Rust programming language
 
-## Sample
+## Directories
+
+### Sample
 
 These are sample programs created using `cargo` build and package management system.
 
-## Source
+### Source
 
-The source directory will contain all the examples, exercises and more from the book[The Rust Programming Language](#books)
+The source directory will contain all the examples, exercises and more from the book [The Rust Programming Language](#books)
 
 ## References
 
 ### Books
 
 1. [Steve Klabnik_ Carol Nichols - The Rust Programming Language, 2nd Edition-No Starch Press (2022).pdf](<./reference/books/Steve Klabnik_ Carol Nichols - The Rust Programming Language, 2nd Edition-No Starch Press (2022).pdf>)
+
+2. [Rust Book](<./reference/books/rust_book.pdf>)
 
 ### Command Line
 
@@ -25,8 +29,26 @@ The source directory will contain all the examples, exercises and more from the 
 5. `rustup --version` - To check version of Rustup
 6. `cargo --version` - To check version of Cargo
 7. `rustup doc` - To get local documentation
+8. `cargo doc --open` - To generate the doc locally and viewed in browser
+9. To create a new project run, `cargo new <project_name>`
+
+    ```sh
+    cargo new hello-rust
+    ```
+
+10. To build the project run, `cargo build`
+11. To run the project, `cargo run`
+12. To add dependencies run, `cargo add <crate_name>`
+
+    ```sh
+    cargo add ferris-says
+    ```
+
+13. To check for compilation errors and not create a binary file run, `cargo check`
 
 ### Links
+
+#### Rust
 
 1. [Rust Foundation](https://foundation.rust-lang.org/)
 2. [Rust Language](https://www.rust-lang.org/)
@@ -45,7 +67,13 @@ The source directory will contain all the examples, exercises and more from the 
 15. [Rustonomicon](https://doc.rust-lang.org/nomicon/index.html)
 16. [Rust Unstable Book](https://doc.rust-lang.org/nightly/unstable-book/index.html)
 17. [Rust Forge](https://forge.rust-lang.org/index.html)
+18. [TOML Files](https://toml.io/en/)
+
+#### Miscellaneous
+
+1. [TOML Lang](https://github.com/toml-lang/toml/wiki)
+2. [Markdown Land](https://markdown.land/)
 
 ### Sample Project
 
-The [hello-rust](./sample/hello-rust/) project is created using `cargo` build system and package manager for Rust. This is to simulate the properties of creating a project using `cargo`.
+The [hello-rust](./sample/hello-rust/) and [hello-cargo](./sample/hello-cargo/) are projects created using `cargo` build system and package manager for Rust. This is to simulate the properties of creating a project using `cargo`.

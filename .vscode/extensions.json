@@ -2,6 +2,13 @@
     "recommendations": [
         "rust-lang.rust-analyzer",
         "vadimcn.vscode-lldb",
-        "tamasfe.even-better-toml"
+        "tamasfe.even-better-toml",
+        "bierner.github-markdown-preview",
+        "bierner.markdown-footnotes",
+        "bierner.markdown-yaml-preamble",
+        "bierner.markdown-emoji",
+        "bierner.markdown-checkbox",
+        "bierner.markdown-mermaid",
+        "yzhang.markdown-all-in-one"
     ]
 }

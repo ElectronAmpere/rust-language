@@ -67,12 +67,15 @@ The source directory will contain all the examples, exercises and more from the 
 15. [Rustonomicon](https://doc.rust-lang.org/nomicon/index.html)
 16. [Rust Unstable Book](https://doc.rust-lang.org/nightly/unstable-book/index.html)
 17. [Rust Forge](https://forge.rust-lang.org/index.html)
-18. [TOML Files](https://toml.io/en/)
+18. [Rust TOML Files](https://docs.rs/toml/latest/toml/)
+19. [Rust Comments Section](https://doc.rust-lang.org/rust-by-example/hello/comment.html)
+20. [Rust Commenting Conventions](https://github.com/rust-lang/rfcs/blob/master/text/1574-more-api-documentation-conventions.md#appendix-a-full-conventions-text)
 
 #### Miscellaneous
 
 1. [TOML Lang](https://github.com/toml-lang/toml/wiki)
-2. [Markdown Land](https://markdown.land/)
+2. [TOML Files](https://toml.io/en/)
+3. [Markdown Land](https://markdown.land/)
 
 ### Sample Project
 

@@ -11,7 +11,7 @@ include = ["/source","/docs","/reference","/sample"]
 
 [[bin]]
 name = "rust-language"
-path = "source/examples/chapter_3_Foundations/ex_3_05_functions.rs"
+path = "source/examples/chapter_3_Foundations/ex_3_06_control_flow.rs"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 

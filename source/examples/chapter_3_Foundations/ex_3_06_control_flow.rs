@@ -24,7 +24,10 @@ fn main()
     //repetition();
     repetition_with_result();
     loop_labels();
-
+    while_loop();
+    array_while_loop();
+    array_for_loop();
+    range_rev_for_loop();
 }
 
 
@@ -106,4 +109,48 @@ fn loop_labels()
     }
 
     println!("End Count = {count}");
+}
+
+fn while_loop()
+{
+    let mut number = 3;
+
+    while number != 0 {
+	println!("{number}!");
+	number -= 1;
+    }
+    println!("LIFTOFF!!!");
+}
+
+fn array_while_loop()
+{
+    let a = [10, 20, 30, 40, 50];
+    let mut index = 0;
+
+    //It’s also slow, because the compiler adds runtime
+    //code to perform the conditional check of whether the index is within
+    //the bounds of the array on every iteration through the loop
+    while index < 5 {
+	println!("The value is: {}", a[index]);
+
+	index += 1;
+    }
+}
+
+fn array_for_loop()
+{
+    let a = [10, 20, 30, 40, 50];
+
+    for element in a {
+	println!("The value is: {element}");
+    }
+}
+
+fn range_rev_for_loop()
+{
+    for number in (1..4).rev() {
+	println!("{number}!");
+    }
+
+    println!("LIFTOFF!!!");
 }
